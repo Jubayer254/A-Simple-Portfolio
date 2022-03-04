@@ -2,262 +2,71 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Jubayer</title>
-        <link rel="stylesheet" href="css/styels.css">
+        <title>Jubayer Hossen</title>
+        <link rel="stylesheet" href="css/stayels.css">
+        <link rel = "icon" href="me.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400&family=Montserrat:wght@400&family=Sacramento&display=swap" rel="stylesheet">
     </head>
-    <body style>
+    <body>
+      <nav id='menu'>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+        <ul>
+          <img class= "prof" src="img/jub.png" alt="img">
+          <li><a href='#'>Login</a></li>
+          <li><a href='#'>Sign Up</a></li>
+          <li><a href='#'>My Works</a></li>
+          <li><a href='#'>About Me</a></li>
+          <li><a href='#'>Blog</a></li>
+          <li><a href='#'>Home</a></li>
+          
+        </ul>
+      </nav>
+        <div class="top-container">
+            <img class = top_cloud src="img/cloud.png" alt="img">
+            <h1>I'm Jubayer</h1>
+            <h2>a <span class="pro">pro</span>grammer.</h2>
+            <img class = bot_cloud src="img/cloud.png" alt="img">
+            <img class = mountain src="img/mountain.png" alt="img">
+        </div>
+        
+        <div class="middle-container">
+            <div class="profile">
+              <img class = profile src="img/2.jpg" alt="img">
+              <h2>Hello</h2>
+              <p class="intro">Hey, I am Jubayer. Currently doing my undergraduate at UNITED INTERNATIONAL UNIVERSITY.</p>
+            </div>
 
-        <table cellspacing="20">
-            <tr>
-                <td><img class="profile" src="img/2.jpg" alt="UIU" height="100" width="100"></td>
-                <td><h1>Jubayer Hossen</h1>
-                <p>Hello! I am Jubayer Hossen.<br>Currently Studing at United International University.</p>
-                Facebook: <a href="https://www.facebook.com/jubayer.hossen.254">Click Here</a><br>
-                Instagram: <a href="https://www.instagram.com/solanum_tuberosum_007/">Click Here</a><br>
-                Contact Me: <a href="contact.html">Click Here</a>
-                </td>
-            </tr>
-        </table>
+            <hr>
+            <div class="skills">
+              <h2>My Skills</h2>
+              <div class="skill-row">
+                <img class="first" src="https://media0.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif?cid=ecf05e47xk97z1zlf89w2gt4kkdm0joruosmxil1bbqbtal8&rid=giphy.gif&ct=s" alt="img">
+                <h3>Programming</h3>
+                <p>I know HTML, CSS, JavaScript, MySql, C-programming, Java. Hopefully I will learn more in the upcomming dayes.</p>
+              </div>
+              <div class="skill-row">
+                <img class="sec" src="https://media0.giphy.com/media/cdJwQTnlm0jvY2NHe2/giphy.gif?cid=ecf05e47f5pr5jm8n5w1z8f0r06uxhjt0uqhvdlfcwecsxd5&rid=giphy.gif&ct=s" alt="img">
+                <h3>Graphic Designing</h3>
+                <p>I know Adobe Illustrator and Adobe Photoshop. I can make Logo, Template, banner and other designing stuffs. Currently, I am the 'Head of Graphics' of UIU APP FORUM.</p>
+              </div>
+            </div>
 
-        <br><br>
-        <hr>
-        <br>
-        <h2>Results:</h2>
-        <Table border="1">
-            <thead>
-                <tr>
-                    <th>Course Code</th>
-                    <th>Course Name</th>
-                    <th>CGPA</th>
-                    <th>Grade</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>ENG 1105</td>
-                    <td>Intensive English I</td>
-                    <td>2.67</td>
-                    <td>B-</td>
-                </tr>
-                <tr>
-                    <td>URC 1101</td>
-                    <td>Life Skills for Success</td>
-                    <td>4.00</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>CSE 1110</td>
-                    <td>Introduction to Computer Systems</td>
-                    <td>3.00</td>
-                    <td>B</td>
-                </tr>
-                <tr>
-                    <td>CSE 1111</td>
-                    <td>Structured Programming Language</td>
-                    <td>4.00</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>CSE 1112</td>
-                    <td>Structured Programming Language Laboratory</td>
-                    <td>4.00</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>CSE 1325</td>
-                    <td>Digital Logic Design</td>
-                    <td>4.00</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>CSE 2213</td>
-                    <td>Discrete Mathematics</td>
-                    <td>3.67</td>
-                    <td>A-</td>
-                </tr>
-                <tr>
-                    <td>CSE 1115</td>
-                    <td>Object Oriented Programming</td>
-                    <td>4.00</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>CSE 1116</td>
-                    <td>Object Oriented Programming	Laboratory</td>
-                    <td>4.00</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>EEE 2113</td>
-                    <td>Electrical Circuits</td>
-                    <td>4.00</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>MATH 1151</td>
-                    <td>Fundamental Calculus</td>
-                    <td>4.00</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>ACT 2111</td>
-                    <td>Financial and Managerial Accounting</td>
-                    <td>4.00</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>CSE 2233</td>
-                    <td>Theory of Computation</td>
-                    <td>4.00</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>MATH 2183</td>
-                    <td>Calculus and Linear Algebra</td>
-                    <td>4.00</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>MATH 2201</td>
-                    <td>Coordinate Geometry and Vector Analysis</td>
-                    <td>4.00</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>ECO 4101</td>
-                    <td>Economics</td>
-                    <td>3.67</td>
-                    <td>A-</td>
-                </tr>
-                <tr>
-                    <td>CSE 2215</td>
-                    <td>Data Structure and Algorithms I</td>
-                    <td>4.00</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>CSE 2216</td>
-                    <td>Data Structure and Algorithms I Laboratory</td>
-                    <td>4.00</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>EEE 2123</td>
-                    <td>Electronics</td>
-                    <td>4.00</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>CSE 2124</td>
-                    <td>Electronics Laboratory</td>
-                    <td>4.00</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>MATH 2205</td>
-                    <td>Probability and Statistics</td>
-                    <td>4.00</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>SOC 2101</td>
-                    <td>Society, Environment and Engineering Ethics</td>
-                    <td>4.00</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>CSE 3313</td>
-                    <td>Computer Architecture</td>
-                    <td>4.00</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>CSE 2217</td>
-                    <td>Data Structure and Algorithms II</td>
-                    <td>4.00</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>CSE 2218</td>
-                    <td>Data Structure and Algorithms II Laboratory</td>
-                    <td>4.00</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>PHY 2105</td>
-                    <td>Physics</td>
-                    <td>4.00</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>PHY 2106</td>
-                    <td>Physics Laboratory</td>
-                    <td>4.00</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>CSE 3521</td>
-                    <td>Database Management Systems	</td>
-                    <td>4.00</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>CSE 3522</td>
-                    <td>Database Management Systems	Laboratory</td>
-                    <td>4.00</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>CSE 3811</td>
-                    <td>Artificial Intelligence</td>
-                    <td>4.00</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>CSE 3812</td>
-                    <td>Artificial Intelligence	Laboratory</td>
-                    <td>4.00</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>CSE 2118</td>
-                    <td>Advanced Object Oriented Programming Laboratory</td>
-                    <td>4.00</td>
-                    <td>A</td>
-                </tr>
-                
-            </tbody>
-            
-        </Table>
-
-        <br><br>
-        <hr>
-        <h2>Skills:</h2>
-        <table>
-            <tr>
-                <td>C Programming: </td>
-                <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>Java: </td>
-                <td>⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>HTML: </td>
-                <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>CSS: </td>
-                <td>⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>PHP: </td>
-                <td>⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>MySQL: </td>
-                <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-        </table>
+            <hr>
+            <div class="contact-me">
+              <h2>Get In Touch</h2>
+              <h3>You can contact me via facebook, Instagram and Google Meet.</h3>
+              <p class= "con_msg">Contact me by clicking the button below.</p>
+              <a class="btn" href="mailto:jhossen191254@bscse.uiu.ac.bd">CONTACT ME</a>
+            </div>
+          </div>
+          
+          <div class="bottom-container">
+            <a class="footer-link" href="https://www.facebook.com/jubayer.hossen.254">Facebook</a>
+            <a class="footer-link" href="https://www.instagram.com/solanum_tuberosum_007/">Instagram</a>
+            <a class="footer-link" href="https://meet.google.com/grn-odrm-jmh">Meet</a>
+            <p class ="copyright">© 2021 Jubayer Hossen.</p>
+          </div>
     </body>
 </html>
