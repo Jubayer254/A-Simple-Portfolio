@@ -1,0 +1,25 @@
+body{
+    background-color: #AEFEFF;
+    padding: 50px;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: gray;
+    border-width: 7px;
+    width: 30px;
+}
+h1{
+    color: #009ac0;
+}
+h2{
+    color: #009ac0;
+}
+.profile{
+    border-radius: 50%;
+}
+
+h1:hover{
+    color: #781D42;
+    cursor:pointer;
+}
