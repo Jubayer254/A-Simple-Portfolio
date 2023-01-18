@@ -9,8 +9,9 @@ Programing Languages: HTML, CSS, JavaScript
   BSc in Computer Science and Engineering  
   United International University
 
-## Snapshot
-<img src="Screenshot 2022-10-05 at 10.08.23 PM.png" alt="" style="width:150px;"/>
+## Snapshots
+<img src="1.png" alt="" style="width:350px;"/>
+<img src="2.png" alt="" style="width:350px;"/>
 
 ## Features List
 * Can calculate all the basic opearations
