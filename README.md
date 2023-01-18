@@ -10,8 +10,8 @@ Programing Languages: HTML, CSS, JavaScript
   United International University
 
 ## Snapshots
-<img src="1.png" alt="" style="width:350px;"/>
-<img src="2.png" alt="" style="width:350px;"/>
+<img src="1.png" alt="" style="width:1080px;"/>
+<img src="2.png" alt="" style="width:1080px;"/>
 
 ## Features List
 * Can calculate all the basic opearations
