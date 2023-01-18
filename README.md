@@ -1,8 +1,8 @@
-# Simple Calculator With Javascript
+# A Simple Portfolio
 ## Project Overview
-This is a simple web application of a calculator.
+This is a simple portfolio website of myself.
 ## Developed Using
-Programing Languages: HTML, CSS, JavaScript
+Programing Languages: HTML, CSS
 ## Developed By
   Jubayer Hossen  
   Email: `jhossen191254@bscse.uiu.ac.bd`  
@@ -13,8 +13,5 @@ Programing Languages: HTML, CSS, JavaScript
 <img src="1.png" alt="" style="width:1080px;"/>
 <img src="2.png" alt="" style="width:1080px;"/>
 
-## Features List
-* Can calculate all the basic opearations
-* All the buttons have clicking sound
 ## Compatibility 
 All devices including: `PC` `Laptop` `Smartphone` `Tablet`
